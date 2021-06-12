@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <img class="profile-picture" src="profile.jpg">
+            <div class="info-container">
+                <span class="title name">yasril hidayat</span>
+                <span class="title subtitle">Sagitarius</span>
+                <div class="menuNav">
+                <ul class="nav nav-pills mt-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="far fa-user"></i></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-graduation-tab" data-bs-toggle="pill" data-bs-target="#pills-graduation" type="button" role="tab" aria-controls="pills-graduation" aria-selected="false"><i class="far fa-graduation-cap"></i></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-star-tab" data-bs-toggle="pill" data-bs-target="#pills-star" type="button" role="tab" aria-controls="pills-star" aria-selected="false"><i class="far fa-star"></i></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-love-tab" data-bs-toggle="pill" data-bs-target="#pills-love" type="button" role="tab" aria-controls="pills-love" aria-selected="false"><i class="far fa-heart"></i></button>
+                      </li>
+                </ul>
+                </div>
+                  <div class="tab-content mt-2" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <table>
+                            <tr>
+                                <th>panggilan</th>
+                                <td>rel</td>
+                            </tr>
+                            <tr>
+                                <th>panggilan lain</th>
+                                <td>yas, sril, hida, penumpanggelap, tretan</td>
+                            </tr>
+                            <tr>
+                                <th>genre</th>
+                                <td>comedy, fantasy</td>
+                            </tr>
+                            <tr>
+                                <th>quote</th>
+                                <td>sepenuhnya milik allah swt</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td><a href="https://yasrielh.blogspot.com/">blog</a>&emsp;<a href="https://www.logoground.com/designer.php?did=158568">logo</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="pills-graduation" role="tabpanel" aria-labelledby="pills-graduation-tab">
+                        <div>Web development ~ frontend
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        </div>
+                        <div>Desain grafis ~ logo
+                            <div class="progress mb-2">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div>Mesin ~ otomotif
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-star" role="tabpanel" aria-labelledby="pills-star-tab">
+                        <ul>
+                            <li>salah satu pendiri komunitas plazight</li>
+                            <li>pernah menaklukkan hati lebih dari 1 orang tanpa sengaja</li>
+                            <li>purna pramuka smansa pamekasan 2019</li>
+                            <li>user chang'e</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="pills-love" role="tabpanel" aria-labelledby="pills-love-tab">
+                        <table>
+                            <tr>
+                                <th>Status</th>
+                                <td>&emsp;: accismus</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</html>
